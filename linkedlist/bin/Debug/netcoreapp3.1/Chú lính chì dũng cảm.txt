@@ -1,0 +1,126 @@
+Bảng 2 1: Kịch bản thêm tin tức	10
+Bảng 2 2: Kịch bản sửa tin tức	11
+Bảng 2 3: Kịch bản xóa tin tức	12
+Bảng 2 4: Kịch bản tìm kiếm tin tức	12
+Bảng 2 5: Kịch bản thêm mới danh mục sản phẩm	13
+Bảng 2 6: Kịch bản sửa danh mục sản phẩm	14
+Bảng 2 7: Kịch bản xóa danh mục sản phẩm	15
+Bảng 2 8: Kịch bản tìm kiếm danh mục sản phẩm	15
+Bảng 2 9: Kịch bản thêm sản phẩm	16
+Bảng 2 10: Kịch bản sửa sản phẩm	17
+Bảng 2 11: Kịch bản xóa sản phẩm	18
+Bảng 2 12: Kịch bản tìm kiếm sản phẩm	18
+Bảng 2 13: Kịch bản xem chi tiết đơn hàng	19
+Bảng 2 14: Kịch bản tìm kiếm đơn hàng	20
+Bảng 2 15: Kịch bản xóa đơn hàng	20
+Bảng 2 16: Kịch bản thêm banner	21
+Bảng 2 17: Kịch bản sửa banner	22
+Bảng 2 18: Kịch bản xóa banner	23
+Bảng 2 19: Kịch bản tìm kiếm banner	23
+Bảng 2 20: Kịch bản xóa khách hàng	24
+Bảng 2 21: Kịch bản tìm kiếm khách hàng	25
+Bảng 2 22: Kịch bản thêm tài khoản Admin	26
+Bảng 2 23: Kịch bản xóa tài khoản Admin	26
+Bảng 2 24: Kịch bản tìm kiếm tài khoản Admin	27
+Bảng 2 25: Kịch bản xóa bình luận – đánh giá	28
+Bảng 2 26: Kịch bản báo cáo- thống kê	29
+Bảng 2 27: Kịch bản thêm sản phẩm vào giỏ hàng	30
+Bảng 2 28: Kịch bản xóa sản phẩm khỏi giỏ hàng	30
+Bảng 2 29: Kịch bản đặt hàng	31
+Bảng 2 30: Kịch bản khách hàng tìm kiếm sản phẩm	32
+Bảng 2 31: Bảng CSDL categories	53
+Bảng 2 32: Bảng CSDL customer	53
+Bảng 2 33: Bảng CSDL account	54
+Bảng 2 34: Bảng CSDL news	54
+Bảng 2 35: Bảng CSDL products	55
+Bảng 2 36: Bảng CSDL slides	55
+Bảng 2 37: Bảng CSDL orders	56
+Bảng 2 38: Bảng CSDL order_detail	56
+Bảng 2 39: Bảng CSDL product_detail	57
+Bảng 2 40: Bảng CSDL comments	57
+Bảng 2 41: Bảng CSDL rating_star_product	57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+PHẦN MỞ ĐẦU
+1.	Lý do chọn đề tài
+Hiện tại các mặt hàng nội thất chủ yếu bán lẻ qua hệ thống cửa hàng truyền thống với số lượng khách hàng hạn chế. Thông tin sản phẩm, mặt hàng mới, xu hướng hiện tại cập nhật đến với người mua khá chậm. Việc mở rộng thêm thị trường là rất khó khăn và rất tốn kém (vì việc mở rộng thị trường đồng nghĩa với việc phải mở thêm các cửa hàng, điều này rất tốn kém về tài chính và nhân sự, cũng như hệ thống quản lý sẽ phức tạp dẫn đến việc gặp nhiều khó khăn hơn trong kinh doanh). 
+Mỗi khi mua hàng, lựa chọn sản phẩm mất rất nhiều thời gian và công sức. Vấn đề về thông tin chi tiết các sản phẩm cũng sẽ rất hạn chế và bất cập. Khi khách hàng xem và lựa chọn sản phẩm trực tiếp cũng sẽ dễ xảy ra tình trạng hư hỏng hoặc thất thoát, điều này sẽ ảnh hưởng rất nhiều đến quá trình kinh doanh cũng như khả năng quản lý. Ngoài ra còn rất nhiều vấn đề khác như thuê mặt bằng, quảng bá thương hiệu, thông tin đến khách hàng sẽ gặp khó khăn. 
+Với thời đại sử dụng công nghệ nhiều như bây giờ, có khá nhiều cửa hàng, doanh nghiệp đã sử dụng website để cung cấp thông tin, quảng bá thương hiệu của mình qua internet để khắc phục bất cập về việc mua hàng trực tiếp tại cửa hàng.
+Vì vậy, em quyết định xây dựng một website bán đồ nội thất để nắm bắt những cơ hội thuận lợi cũng như khắc phục những hạn chế như đã nêu ở trên.
+2.	Mục tiêu của đề tài
+•	Đối với khách hàng
+o	Xây dựng website nhằm đáp ứng nhu cầu của mọi khách hàng kể cả những khách hàng khó tính nhất.
+o	Với việc áp dụng các tính năng của CNTT trên website, sẽ đưa ra danh sách những sản phẩm mới nhất, những sản phẩm được giảm giá, và những sản phẩm được bán chạy nhất nhằm quảng bá và định hướng cho khách hàng những sản phẩm chất lượng, phù hợp với nhu cầu của mà khách hàng mong muốn.
+o	Cung cấp cho khách hàng chức năng đưa ra những ý kiến về các sản phẩm thông qua việc đánh giá trực tiếp lên sản phẩm đó hoặc qua email và đường dây nóng. Đây có thể coi là những công cụ tư vấn khách quan nhất giúp người mua có thể chọn cho mình sản phẩm ưng ý nhất.
+o	Cùng với chức năng đặt mua và hình thức thanh toán nhanh nhất, website sẽ tiết kiệm rất nhiều thời gian cho việc chọn và mua. Việc mua và bán sẽ thuận tiện hơn chỉ với một click chuột.
+o	Website cung cấp nguồn thông tin về sản phẩm đảm bảo chất lượng tất cả các mặt hàng.
+o	Chức năng tìm kiếm sản phẩm cũng giúp khách hàng có lựa chọn thuận tiện, nhanh chóng để mua được sản phẩm mình cần nhanh nhất.
+•	Đối với người quản trị
+o	Có thể dễ dàng cập nhật những sản phẩm mới nhất, sản phẩm giảm giá nhiều nhất và sản phẩm bán chạy nhất theo xu hướng khách hàng.
+o	Dễ dàng quản lý sản phẩm, danh mục sản phẩm, quản lý tin tức đưa đến khách hàng, quản lý banner hiển thị trên trang web hay quản lý đơn hàng.
+o	Dễ dàng tìm kiếm được thông tin khách hàng, thông tin sản phẩm, danh mục, tin tức, hay thông tin banner.
+o	Cập nhật được trạng thái đơn hàng.
+o	Tạo báo cáo thống kê, đưa ra danh sách các mặt hàng bán được trong ngày hoặc trong nhiều ngày.
+o	Có cơ chế chế đăng nhập để xác định người có quyền hạn mới có thể đăng nhập vào hệ thống quản trị của website.
+3.	Nội dung nghiên cứu
+•	Nghiên cứu sơ đồ hoạt động của Famwork Lavarel, cách thức hoạt động, cách triển khai, ưu điểm của Famework Lavarel.
+•	Nghiên cứu HTML, CSS, Javascript, Bootstrap.
+•	Nghiên cứu mô hình MVC.
+•	Nghiên cứu phpMyAdmin.
+•	Nghiên cứu xây dựng Website bán đồ nội thất dựa trên Famework Lavarel.
+4.	Phương pháp nghiên cứu
+•	Phương pháp nghiên cứu lý thuyết: Thu nhập, nghiên cứu các tài liệu về xây dựng web, nghiệp vụ quản lý, nghiên cứu về mô hình hoạt động MVC, nghiên cứu về HTML, Bootstrap, Javascript và Laravel Framework để nghiên cứu xây dựng phần mềm quản lý.
+•	Phương pháp nghiên cứu thực nghiệm: Tiến hành kiểm thử sản phẩm đã xây dựng để kiểm tra kết quả đạt được và khắc phục các lỗi đưa ra các hướng giải quyết kịp thời.
+5.	Bố cục của báo cáo
+Ngoài phần mở đầu và phần kết luận – hướng phát triển, bài báo cáo gồm các chương sau:
+CHƯƠNG 1: TỔNG QUAN LÝ THUYẾT
+CHƯƠNG 2: PHÂN TÍCH THIẾT KẾ HỆ THỐNG
+CHƯƠNG 3: XÂY DỰNG WEBSITE BÁN ĐỒ NỘI THẤT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHƯƠNG 1:	TỔNG QUAN LÝ THUYẾT
+1.1.	Tổng quan về thương mại điện tử
+Thương mại điện tử, hay còn gọi là e-commerce, e-comm hay EC, hiểu một cách đơn giản là hoạt động mua bán sản phẩm hay dịch vụ thông qua Internet và các phương tiện điện tử khác. Các giao dịch này gồm tất cả hoạt động như: mua bán, thanh toán, đặt hàng, quảng cáo và giao hàng... Trên thế giới, những tổ chức lớn trên thế giới cho biết khái niệm của thương mại điện từ được định nghĩa như sau:
+•	Theo Ủy ban Kinh tế Liên Hiệp Quốc châu Âu (UNECE): Thương mại điện tử nội địa bao gồm các giao dịch trong nước qua Internet hoặc các mạng máy tính trung gian, trong khi đó, thương mại điện tử quốc tế liên quan đến các giao dịch xuyên biên giới. Các giao dịch này là giao dịch mua và bán hàng hóa hoặc dịch vụ, sau đó, quá trình chuyển giao hàng hóa có thể được thực hiện trực tuyến hoặc thủ công.
+•	Theo Tổ chức Hợp tác và Phát triển Kinh tế (OECD): Thương mại điện tử được định nghĩa là các giao dịch thương mại, ba
